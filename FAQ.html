@@ -1,0 +1,243 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Inknut+Antiqua&family=Piazzolla:opsz,wght@8..30,300&family=Spectral&family=Texturina:opsz,wght@12..72,400;12..72,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/40a3bc6bef.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<nav class="navbar navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand fs-2" href="index.html">Herbal House</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasNavbar"
+				aria-controls="offcanvasNavbar"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div
+				class="offcanvas offcanvas-end"
+				tabindex="-1"
+				id="offcanvasNavbar"
+				aria-labelledby="offcanvasNavbarLabel"
+			>
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+					<button
+						type="button"
+						class="btn-close text-reset"
+						data-bs-dismiss="offcanvas"
+						aria-label="Close"
+					></button>
+				</div>
+				<div class="offcanvas-body">
+					<!-- Nav Links -->
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blog.html">Blog</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="offcanvasNavbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								More
+							</a>
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="offcanvasNavbarDropdown"
+							>
+								<li>
+									<a class="dropdown-item" href="FAQ.html"
+										>Frequently Asked Questions</a
+									>
+								</li>
+								<li><a class="dropdown-item" href="about.html">About Us</a></li>
+								<li>
+									<hr class="dropdown-divider" />
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<body id="faq-page">
+		<!-- Section 1 -->
+		<div class="container bg-light mb-5 mt-5">
+			<!--Section: FAQ-->
+			<section class="p-2">
+				<h3 class="text-center pt-4 mb-4 pb-2">FAQ</h3>
+				<p class="text-center mb-5">
+					Find the answers for the most frequently asked questions below
+				</p>
+
+				<div class="row">
+					<div class="col-md-6 col-lg-4 mb-4">
+						<h6 class="mb-3">A simple question?</h6>
+						<p>
+							<strong><u>Absolutely!</u></strong> We work with top payment
+							companies which guarantees your safety and security. All billing
+							information is stored on our payment processing partner.
+						</p>
+					</div>
+
+					<div class="col-md-6 col-lg-4 mb-4">
+						<h6 class="mb-3">
+							A question that is longer then the previous one?
+						</h6>
+						<p>
+							<strong><u>Yes, it is possible!</u></strong> You can cancel your
+							subscription anytime in your account. Once the subscription is
+							cancelled, you will not be charged next month.
+						</p>
+					</div>
+
+					<div class="col-md-6 col-lg-4 mb-4">
+						<h6 class="mb-3">A simple question?</h6>
+						<p>
+							Currently, we only offer monthly subscription. You can upgrade or
+							cancel your monthly account at any time with no further
+							obligation.
+						</p>
+					</div>
+
+					<div class="col-md-6 col-lg-4 mb-4">
+						<h6 class="mb-3">A simple question?</h6>
+						<p>
+							Yes. Go to the billing section of your dashboard and update your
+							payment information.
+						</p>
+					</div>
+
+					<div class="col-md-6 col-lg-4 mb-4">
+						<h6 class="mb-3">A simple question?</h6>
+						<p>
+							<strong><u>Unfortunately no</u>.</strong> We do not issue full or
+							partial refunds for any reason.
+						</p>
+					</div>
+
+					<div class="col-md-6 col-lg-4 mb-4">
+						<h6 class="mb-3">Another question that is longer than usual</h6>
+						<p>
+							Of course! We’re happy to offer a free plan to anyone who wants to
+							try our service.
+						</p>
+					</div>
+				</div>
+			</section>
+			<!--Section: FAQ-->
+			<form class="p-3">
+				<h3 class="text-center p-4">Contact us</h3>
+				<!-- Name input -->
+				<div class="form-outline mb-4">
+					<input type="text" id="form4Example1" class="form-control" />
+					<label class="form-label" for="form4Example1">Name</label>
+				</div>
+
+				<!-- Email input -->
+				<div class="form-outline mb-4">
+					<input type="email" id="form4Example2" class="form-control" />
+					<label class="form-label" for="form4Example2">Email address</label>
+				</div>
+
+				<!-- Message input -->
+				<div class="form-outline mb-4">
+					<textarea class="form-control" id="form4Example3" rows="4"></textarea>
+					<label class="form-label" for="form4Example3">Message</label>
+				</div>
+
+				<!-- Checkbox -->
+				<div class="form-check d-flex justify-content-center mb-4">
+					<input
+						class="form-check-input me-2"
+						type="checkbox"
+						value=""
+						id="form4Example4"
+						checked
+					/>
+					<label class="form-check-label" for="form4Example4">
+						Send me a copy of this message
+					</label>
+				</div>
+
+				<!-- Submit button -->
+				<button type="submit" class="btn btn-primary btn-block mb-4">
+					Send
+				</button>
+			</form>
+		</div>
+		<!-- Footer Start -->
+		<footer class="bg-dark text-center text-white">
+			<div class="container p-4 pb-0">
+				<section class="mb-4">
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-facebook-f"></i
+					></a>
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						><i class="fab fa-etsy"></i
+					></a>
+				</section>
+			</div>
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+				© 2022 Copyright:
+				<a class="text-white" href="#">Lorem Ipsum</a>
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

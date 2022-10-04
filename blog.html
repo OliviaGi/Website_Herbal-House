@@ -1,0 +1,219 @@
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Inknut+Antiqua&family=Piazzolla:opsz,wght@8..30,300&family=Spectral&family=Texturina:opsz,wght@12..72,400;12..72,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script
+			src="https://kit.fontawesome.com/40a3bc6bef.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+	</head>
+	<nav class="navbar navbar-light">
+		<div class="container-fluid">
+			<a class="navbar-brand fs-2" href="index.html">Herbal House</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-bs-toggle="offcanvas"
+				data-bs-target="#offcanvasNavbar"
+				aria-controls="offcanvasNavbar"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div
+				class="offcanvas offcanvas-end"
+				tabindex="-1"
+				id="offcanvasNavbar"
+				aria-labelledby="offcanvasNavbarLabel"
+			>
+				<div class="offcanvas-header">
+					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+					<button
+						type="button"
+						class="btn-close text-reset"
+						data-bs-dismiss="offcanvas"
+						aria-label="Close"
+					></button>
+				</div>
+				<div class="offcanvas-body">
+					<!-- Nav Links -->
+					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="index.html"
+								>Home</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="blog.html">Blog</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="offcanvasNavbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								More
+							</a>
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="offcanvasNavbarDropdown"
+							>
+								<li>
+									<a class="dropdown-item" href="FAQ.html"
+										>Frequently Asked Questions</a
+									>
+								</li>
+								<li><a class="dropdown-item" href="about.html">About Us</a></li>
+								<li>
+									<hr class="dropdown-divider" />
+								</li>
+								<li>
+									<a class="dropdown-item" href="#">Something else here</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</nav>
+</html>
+<body id="blog-body">
+	<div class="container mt-4 mb-3">
+		<div class="container bg-light p-4 border">
+			<h3 class="pt-3 text-bg-light fs-2">Blog post title</h3>
+			<p class="mt-1">Author: Jane Doe</p>
+			<p class="border-bottom">June 12th 2019</p>
+			<div class="container p-4">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus at
+					purus elit. Aenean erat mi, vestibulum ultricies dapibus sed, dapibus
+					id tortor. Aenean ac odio enim. Aenean varius tortor et metus lacinia
+					ornare. Etiam vitae nunc eget urna interdum mollis vel eget dui.
+					Nullam dui sem, interdum ut libero eget, ultricies hendrerit metus.
+					Proin nec lectus ipsum. Cras pretium vestibulum placerat. Morbi velit
+					nisl, dapibus sit amet porttitor quis, eleifend pharetra magna.
+				</p>
+				<img
+					class="img-thumbnail mb-3 pl-2 pr-2"
+					src="https://images.pexels.com/photos/1105019/pexels-photo-1105019.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+				/>
+				<p>
+					Vivamus eros ligula, venenatis ut nisi sit amet, facilisis tincidunt
+					libero. Suspendisse dictum tempor dictum. Quisque fermentum turpis non
+					leo rhoncus convallis. Praesent feugiat sit amet nisi et dapibus.
+					Phasellus cursus, mi auctor malesuada porttitor, metus ipsum iaculis
+					enim, et auctor mi ante sed nunc. Aliquam sit amet pulvinar turpis, at
+					placerat leo. Fusce egestas nibh dolor, quis pretium urna eleifend
+					nec.
+				</p>
+				<p>
+					Maecenas quis neque vel lectus elementum imperdiet pretium nec nunc.
+					Donec luctus eu ex ac posuere. Vivamus ac suscipit leo. Phasellus eu
+					dui metus. Ut gravida lacinia urna sed consectetur. Curabitur commodo
+					mi iaculis tincidunt porttitor. Fusce nec feugiat risus. Aenean
+					accumsan pretium lectus, id egestas nisl consequat sit amet. Cras et
+					velit quis lacus facilisis egestas non et est.
+				</p>
+			</div>
+			<div class="border-top row p-3">
+				<div class="col float-md-end">
+					<a class="link-secondary pl-4 fs-5" href="#">Comment</a>
+					<a
+						class="btn btn-outline-dark btn-floating m-1 pl-4"
+						href="#!"
+						role="button"
+					>
+						<i class="fa-brands fa-facebook"></i
+					></a>
+					<a
+						class="btn btn-outline-dark btn-floating m-1"
+						href="#!"
+						role="button"
+					>
+						<i class="fa-brands fa-facebook-messenger"></i>
+					</a>
+					<a
+						class="btn btn-outline-dark btn-floating m-1"
+						href="#!"
+						role="button"
+					>
+						<i class="fa-solid fa-envelope"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav aria-label="Page navigation" id="page-nav">
+		<ul class="pagination justify-content-center">
+			<li class="page-item">
+				<a class="page-link" href="#" aria-label="Previous">
+					<span aria-hidden="true">&laquo;</span>
+				</a>
+			</li>
+			<li class="page-item"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item">
+				<a class="page-link" href="#" aria-label="Next">
+					<span aria-hidden="true">&raquo;</span>
+				</a>
+			</li>
+		</ul>
+	</nav>
+	<footer class="bg-dark text-center text-white">
+		<div class="container p-4 pb-0">
+			<section class="mb-4">
+				<a
+					class="btn btn-outline-light btn-floating m-1"
+					href="#!"
+					role="button"
+					><i class="fab fa-facebook-f"></i
+				></a>
+				<a
+					class="btn btn-outline-light btn-floating m-1"
+					href="#!"
+					role="button"
+					><i class="fab fa-twitter"></i
+				></a>
+				<a
+					class="btn btn-outline-light btn-floating m-1"
+					href="#!"
+					role="button"
+					><i class="fab fa-instagram"></i
+				></a>
+				<a
+					class="btn btn-outline-light btn-floating m-1"
+					href="#!"
+					role="button"
+					><i class="fab fa-etsy"></i
+				></a>
+			</section>
+		</div>
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+			© 2022 Copyright:
+			<a class="text-white" href="#">Lorem Ipsum</a>
+		</div>
+		<!-- Copyright -->
+	</footer>
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+		crossorigin="anonymous"
+	></script>
+</body>
