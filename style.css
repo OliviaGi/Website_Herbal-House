@@ -1,4 +1,4 @@
- /*
+/*
 font-family: 'Cormorant Unicase', serif;
 font-family: 'Inknut Antiqua', serif;
 font-family: 'Piazzolla', serif;
@@ -8,14 +8,15 @@ font-family: 'Texturina', serif;
 body {
 	margin: 0;
 	padding: 0;
-width: 100%;
-overflow-x: hidden;
+	width: 100%;
+	overflow-x: hidden;
+	padding-top: 70px;
 }
 nav {
-	background-color: rgba(178, 190, 181,0.9);	
+	background-color: rgba(178, 190, 181, 0.9);
 }
 .navbar-brand {
-	font-family: 'Cormorant Unicase', serif;
+	font-family: "Cormorant Unicase", serif;
 	font-size: 25px;
 	padding-left: 1%;
 }
@@ -23,35 +24,44 @@ nav {
 	background-color: #d6d6ce;
 }
 a {
-	font-family: 'Spectral', serif;
+	font-family: "Spectral", serif;
 	font-weight: bold;
 }
 p {
-font-family: 'Spectral', serif;
+	font-family: "Spectral", serif;
+	font-size: 20px;
 }
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Inknut Antiqua', serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Inknut Antiqua", serif;
 }
 h5 {
 	font-size: 27px;
 	font-weight: bold;
 }
+page-start {
+}
 #section-1 {
-	background: #31583c		url(https://images.pexels.com/photos/1084586/pexels-photo-1084586.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+	background: #31583c
+		url(https://images.pexels.com/photos/1084586/pexels-photo-1084586.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
 		center center/cover no-repeat fixed;
-		overflow-y: hidden;
+	overflow-y: hidden;
 }
 .carousel {
 	margin: auto;
 	height: 100%;
-  }
+}
 #s1-text {
 	height: 600px;
 	color: white;
 	backdrop-filter: sepia(30%);
 }
 #s1-text h2 {
-font-family: 'Cormorant Unicase', serif;
+	font-family: "Cormorant Unicase", serif;
 	padding-top: 25%;
 }
 .divider {
@@ -59,22 +69,22 @@ font-family: 'Cormorant Unicase', serif;
 	background-color: rgba(178, 190, 181);
 }
 #section-2 {
-	background-color: rgba(137, 148, 153,0.2);
+	background-color: rgba(137, 148, 153, 0.2);
 }
 .carousel-caption {
 	backdrop-filter: grayscale(70%) blur(1px);
 }
 #section-3 {
-	background: rgba(137, 148, 153,0.2);
+	background: rgba(137, 148, 153, 0.2);
 }
 .card {
-width: 80%;
-height: 40%;
-margin-left: auto;
-margin-right: auto;
+	width: 80%;
+	height: 40%;
+	margin-left: auto;
+	margin-right: auto;
 }
 #section-4 {
-	background: rgba(137, 148, 153,0.2);
+	background: rgba(137, 148, 153, 0.2);
 	height: 200px;
 }
 #connect {
@@ -95,11 +105,19 @@ margin-right: auto;
 		center center/cover no-repeat;
 }
 /* Blog specific */
-#blog-body, #about-body {
+#blog-body,
+#about-body {
 	background: rgba(178, 190, 181, 0.9)
-	url(https://images.pexels.com/photos/1924867/pexels-photo-1924867.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
-	center center/cover no-repeat fixed;
+		url(https://images.pexels.com/photos/1924867/pexels-photo-1924867.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260)
+		center center/cover no-repeat fixed;
 }
 #page-nav {
 	background: transparent;
+}
+
+/* Product Page */
+#productBG {
+	background: rgba(178, 190, 181, 0.9)
+		url(https://images.pexels.com/photos/5623163/pexels-photo-5623163.jpeg)
+		center center/cover no-repeat fixed;
 }
