@@ -1,459 +1,484 @@
-<head>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link
-		href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Inknut+Antiqua&family=Piazzolla:opsz,wght@8..30,300&family=Spectral&family=Texturina:opsz,wght@12..72,400;12..72,700&display=swap"
-		rel="stylesheet"
-	/>
-	<link rel="stylesheet" href="style.css" />
-	<!-- CSS only -->
-	<link
-		href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
-		rel="stylesheet"
-		integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
-		crossorigin="anonymous"
-	/>
-	<!-- JavaScript Bundle with Popper -->
-	<script
-		src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-		integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-		crossorigin="anonymous"
-	></script>
-	<script
-		src="https://kit.fontawesome.com/40a3bc6bef.js"
-		crossorigin="anonymous"
-	></script>
-	<title>Our Products</title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase&family=Inknut+Antiqua&family=Piazzolla:opsz,wght@8..30,300&family=Spectral&family=Texturina:opsz,wght@12..72,400;12..72,700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<!-- CSS only -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+			crossorigin="anonymous"
+		/>
+		<!-- JavaScript Bundle with Popper -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://kit.fontawesome.com/40a3bc6bef.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Our Products</title>
+	</head>
 
-<body id="productBG">
-	<nav class="navbar navbar-light fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand fs-2" href="index.html">Herbal House</a>
-			<button
-				class="navbar-toggler"
-				type="button"
-				data-bs-toggle="offcanvas"
-				data-bs-target="#offcanvasNavbar"
-				aria-controls="offcanvasNavbar"
-			>
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div
-				class="offcanvas offcanvas-end"
-				tabindex="-1"
-				id="offcanvasNavbar"
-				aria-labelledby="offcanvasNavbarLabel"
-			>
-				<div class="offcanvas-header">
-					<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
-					<button
-						type="button"
-						class="btn-close text-reset"
-						data-bs-dismiss="offcanvas"
-						aria-label="Close"
-					></button>
-				</div>
-				<div class="offcanvas-body">
-					<!-- Nav Links -->
-					<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="page" href="index.html"
-								>Home</a
-							>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="blog.html">Blog</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="productPage.html">Our Products</a>
-						</li>
-						<li class="nav-item dropdown">
-							<a
-								class="nav-link dropdown-toggle"
-								href="#"
-								id="offcanvasNavbarDropdown"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								More
-							</a>
-							<ul
-								class="dropdown-menu"
-								aria-labelledby="offcanvasNavbarDropdown"
-							>
-								<li>
-									<a class="dropdown-item" href="FAQ.html"
-										>Frequently Asked Questions</a
-									>
-								</li>
-								<li><a class="dropdown-item" href="about.html">About Us</a></li>
-								<li>
-									<hr class="dropdown-divider" />
-								</li>
-								<li>
-									<a class="dropdown-item" href="#">Something else here</a>
-								</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</nav>
-	<div class="container productPage">
-		<div class="row mt-5">
-			<div class="col-lg-6 col-sm-6 mx-auto mb-4 text-center">
-				<h1
-					class="display-4 bg-transparent py-1 px-2 rounded text-light"
-					id="product-header"
+	<body id="productBG">
+		<nav class="navbar navbar-light fixed-top">
+			<div class="container-fluid">
+				<a class="navbar-brand fs-2" href="index.html">Herbal House</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="offcanvas"
+					data-bs-target="#offcanvasNavbar"
+					aria-controls="offcanvasNavbar"
+					aria-label="Expand menu"
 				>
-					Our Products
-				</h1>
-				<div class="accordion accordion-flush" id="accordionFlushExample">
-					<div class="accordion-item">
-						<h2 class="accordion-header" id="flush-headingOne">
-							<button
-								class="accordion-button collapsed"
-								type="button"
-								data-bs-toggle="collapse"
-								data-bs-target="#flush-collapseOne"
-								aria-expanded="false"
-								aria-controls="flush-collapseOne"
-							>
-								Menu
-							</button>
-						</h2>
-						<div
-							id="flush-collapseOne"
-							class="accordion-collapse collapse"
-							aria-labelledby="flush-headingOne"
-							data-bs-parent="#accordionFlushExample"
-						>
-							<div class="accordion-body">
-								<ul class="list-group list-group-flush">
-									<li class="list-group-item">
-										<a href="#tinctures" class="link-dark">Tinctures</a>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="offcanvas offcanvas-end"
+					tabindex="-1"
+					id="offcanvasNavbar"
+					aria-labelledby="offcanvasNavbarLabel"
+				>
+					<div class="offcanvas-header">
+						<h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+						<button
+							type="button"
+							class="btn-close text-reset"
+							data-bs-dismiss="offcanvas"
+							aria-label="Close"
+						></button>
+					</div>
+					<div class="offcanvas-body">
+						<!-- Nav Links -->
+						<ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+							<li class="nav-item">
+								<a class="nav-link active" aria-current="page" href="index.html"
+									>Home</a
+								>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="blog.html">Blog</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="productPage.html">Our Products</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="offcanvasNavbarDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									More
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="offcanvasNavbarDropdown"
+								>
+									<li>
+										<a class="dropdown-item" href="FAQ.html"
+											>Frequently Asked Questions</a
+										>
 									</li>
-									<li class="list-group-item">
-										<a href="#salves" class="link-dark">Salves & Ointments</a>
+									<li>
+										<a class="dropdown-item" href="about.html">About Us</a>
 									</li>
-									<li class="list-group-item">
-										<a href="#elixirs" class="link-dark">Elixirs</a>
+									<li>
+										<hr class="dropdown-divider" />
+									</li>
+									<li>
+										<a class="dropdown-item" href="#">Something else here</a>
 									</li>
 								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="container productPage">
+			<div class="row mt-5">
+				<div class="col-lg-6 col-sm-6 mx-auto mb-4 text-center">
+					<h1
+						class="display-4 bg-transparent py-1 px-2 rounded text-light"
+						id="product-header"
+					>
+						Our Products
+					</h1>
+					<div class="accordion accordion-flush" id="accordionFlushExample">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOne">
+								<button
+									class="accordion-button collapsed"
+									type="button"
+									data-bs-toggle="collapse"
+									data-bs-target="#flush-collapseOne"
+									aria-expanded="false"
+									aria-controls="flush-collapseOne"
+									aria-label="Expand menu"
+								>
+									Menu
+								</button>
+							</h2>
+							<div
+								id="flush-collapseOne"
+								class="accordion-collapse collapse"
+								aria-labelledby="flush-headingOne"
+								data-bs-parent="#accordionFlushExample"
+							>
+								<div class="accordion-body">
+									<ul class="list-group list-group-flush">
+										<li class="list-group-item">
+											<a href="#tinctures" class="link-dark">Tinctures</a>
+										</li>
+										<li class="list-group-item">
+											<a href="#salves" class="link-dark">Salves & Ointments</a>
+										</li>
+										<li class="list-group-item">
+											<a href="#elixirs" class="link-dark">Elixirs</a>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-	<!--Product group-->
-	<div class="container mt-3" id="tinctures">
-		<div class="row">
-			<div class="col-lg-4 col-sm-4 mx-auto text-center">
-				<h2 class="display-5 bg-transparent text-light rounded px-2 py-1">
-					Tinctures
-				</h2>
+		<!--Product group-->
+		<div class="container mt-3" id="tinctures">
+			<div class="row">
+				<div class="col-lg-4 col-sm-4 mx-auto text-center">
+					<h2 class="display-5 bg-transparent text-light rounded px-2 py-1">
+						Tinctures
+					</h2>
+				</div>
+			</div>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						alt="Set of two amber glass bottles"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/8709601/pexels-photo-8709601.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+						alt="amber glass bottle with dropper"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-8 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						alt="Set of two amber glass bottles"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12 p-2">
+					<a
+						href="#product-header"
+						class="link-light float-end"
+						aria-label="Return to page start"
+						><i class="fa-solid fa-angles-up fs-1 p-2"></i
+					></a>
+				</div>
 			</div>
 		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
+		<!--Product group-->
+		<div class="container mt-3" id="salves">
+			<div class="row">
+				<div class="col-lg-4 col-sm-4 mx-auto text-center">
+					<h2 class="display-5 bg-transparent text-light rounded px-2 py-1">
+						Salves & Ointments
+					</h2>
+				</div>
 			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						alt="Set of two amber glass bottles"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/8709601/pexels-photo-8709601.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/8709601/pexels-photo-8709601.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+						alt="amber glass bottle with dropper"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						alt="Set of two amber glass bottles"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-8 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
-			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12 p-2">
-				<a
-					href="#product-header"
-					class="link-light float-end"
-					aria-label="Return to page start"
-					><i class="fa-solid fa-angles-up fs-1 p-2"></i
-				></a>
-			</div>
-		</div>
-	</div>
-	<!--Product group-->
-	<div class="container mt-3" id="salves">
-		<div class="row">
-			<div class="col-lg-4 col-sm-4 mx-auto text-center">
-				<h2 class="display-5 bg-transparent text-light rounded px-2 py-1">
-					Salves & Ointments
-				</h2>
-			</div>
-		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
-			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
+			<div class="row">
+				<div class="col-12 p-2">
+					<a
+						href="#product-header"
+						class="link-light float-end"
+						aria-label="Return to page start"
+						><i class="fa-solid fa-angles-up fs-1 p-2"></i
+					></a>
+				</div>
 			</div>
 		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/8709601/pexels-photo-8709601.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
+		<!--Product group-->
+		<div class="container mt-3" id="elixirs">
+			<div class="row">
+				<div class="col-lg-4 col-sm-4 mx-auto text-center">
+					<h2 class="display-5 bg-transparent text-light rounded px-2 py-1">
+						Elixirs
+					</h2>
+				</div>
 			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						alt="Set of two amber glass bottles"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/8709601/pexels-photo-8709601.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+						alt="amber glass bottle with dropper"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
 			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
+			<div class="row bg-light justify-content-around rounded mb-3 mx-1">
+				<div class="col-lg-4 col-sm-12 mx-auto p-2">
+					<img
+						src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+						alt="Set of two amber glass bottles"
+						class="img-fluid mx-auto mt-3 rounded p-1 border"
+					/>
+				</div>
+				<div class="col-lg-7 col-sm-12 p-3 mx-auto">
+					<h3 class="border-bottom py-2">Lorem Ipsum</h3>
+					<p class="pt-1">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Reprehenderit modi sed ex optio, repellat deserunt, harum corporis
+						facere libero, temporibus nulla qui similique. Saepe, non.
+					</p>
+					<ul class="list-group list-group-flush mb-2">
+						<li class="list-group-item list-group-item-light">
+							Harum corporis - $15
+						</li>
+						<li class="list-group-item list-group-item-light">
+							Nulla qui - $30
+						</li>
+					</ul>
+				</div>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-12 p-2">
-				<a
-					href="#product-header"
-					class="link-light float-end"
-					aria-label="Return to page start"
-					><i class="fa-solid fa-angles-up fs-1 p-2"></i
-				></a>
-			</div>
-		</div>
-	</div>
-	<!--Product group-->
-	<div class="container mt-3" id="elixirs">
-		<div class="row">
-			<div class="col-lg-4 col-sm-4 mx-auto text-center">
-				<h2 class="display-5 bg-transparent text-light rounded px-2 py-1">
-					Elixirs
-				</h2>
-			</div>
-		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
-			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
-			</div>
-		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/8709601/pexels-photo-8709601.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
-			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
+			<div class="row">
+				<div class="col-12 p-2">
+					<a
+						href="#product-header"
+						class="link-light float-end"
+						aria-label="Return to page start"
+						><i class="fa-solid fa-angles-up fs-1 p-2"></i
+					></a>
+				</div>
 			</div>
 		</div>
-		<div class="row bg-light justify-content-around rounded mb-3 mx-1">
-			<div class="col-lg-4 col-sm-12 mx-auto p-2">
-				<img
-					src="https://images.pexels.com/photos/7796459/pexels-photo-7796459.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
-					alt="..."
-					class="img-fluid mx-auto mt-3 rounded p-1 border"
-				/>
+		<footer class="bg-dark text-center text-white">
+			<div class="container p-4 pb-0">
+				<section class="mb-4">
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						aria-label="Facebook"
+						><i class="fab fa-facebook-f"></i
+					></a>
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						aria-label="Twitter"
+						><i class="fab fa-twitter"></i
+					></a>
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						aria-label="Instagram"
+						><i class="fab fa-instagram"></i
+					></a>
+					<a
+						class="btn btn-outline-light btn-floating m-1"
+						href="#!"
+						role="button"
+						aria-label="Etsy"
+						><i class="fab fa-etsy"></i
+					></a>
+				</section>
 			</div>
-			<div class="col-lg-7 col-sm-12 p-3 mx-auto">
-				<h3 class="border-bottom py-2">Lorem Ipsum</h3>
-				<p class="pt-1">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
-					modi sed ex optio, repellat deserunt, harum corporis facere libero,
-					temporibus nulla qui similique. Saepe, non.
-				</p>
-				<ul class="list-group list-group-flush mb-2">
-					<li class="list-group-item list-group-item-light">
-						Harum corporis - $15
-					</li>
-					<li class="list-group-item list-group-item-light">Nulla qui - $30</li>
-				</ul>
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+				© 2022 Copyright:
+				<a class="text-white" href="#">Lorem Ipsum</a>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-12 p-2">
-				<a
-					href="#product-header"
-					class="link-light float-end"
-					aria-label="Return to page start"
-					><i class="fa-solid fa-angles-up fs-1 p-2"></i
-				></a>
-			</div>
-		</div>
-	</div>
-	<footer class="bg-dark text-center text-white">
-		<div class="container p-4 pb-0">
-			<section class="mb-4">
-				<a
-					class="btn btn-outline-light btn-floating m-1"
-					href="#!"
-					role="button"
-					aria-label="Facebook"
-					><i class="fab fa-facebook-f"></i
-				></a>
-				<a
-					class="btn btn-outline-light btn-floating m-1"
-					href="#!"
-					role="button"
-					aria-label="Twitter"
-					><i class="fab fa-twitter"></i
-				></a>
-				<a
-					class="btn btn-outline-light btn-floating m-1"
-					href="#!"
-					role="button"
-					aria-label="Instagram"
-					><i class="fab fa-instagram"></i
-				></a>
-				<a
-					class="btn btn-outline-light btn-floating m-1"
-					href="#!"
-					role="button"
-					aria-label="Etsy"
-					><i class="fab fa-etsy"></i
-				></a>
-			</section>
-		</div>
-		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-			© 2022 Copyright:
-			<a class="text-white" href="#">Lorem Ipsum</a>
-		</div>
-		<!-- Copyright -->
-	</footer>
-</body>
+			<!-- Copyright -->
+		</footer>
+	</body>
+</html>
