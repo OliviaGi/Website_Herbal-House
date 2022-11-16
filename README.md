@@ -1,6 +1,6 @@
 # Small Body Care Business Site
-Concept page for small business primarily selling natural bodycare products and tinctures.
-
+Concept page for small business primarily selling natural bodycare products and tinctures.<br>
+[Preview page here](https://oliviagi.github.io/Website_Herbal-House/)
 ### Overview
 Concept page created for use by a small business selling natural products. The colors and images used in the site are intended to reflect a natural, earthy design.
 
