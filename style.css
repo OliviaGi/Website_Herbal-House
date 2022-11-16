@@ -46,7 +46,7 @@ h5 {
 page-start {
 }
 #section-1 {
-	background-image: url(../img/banner-bg.jpg);
+	background-image: url(img/banner-bg.jpg);
 	overflow-y: hidden;
 }
 .carousel {
