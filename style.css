@@ -96,9 +96,11 @@ h5 {
 }
 /* FAQ specific */
 #faq-page {
-	background: rgba(178, 190, 181, 0.9)
-		url(https://images.pexels.com/photos/6627190/pexels-photo-6627190.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1)
-		center center/cover no-repeat;
+	background: rgba(178, 190, 181, 0.9) url(img/book-filler-img.JPG);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 /* Blog specific */
 #blog-body,
