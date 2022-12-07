@@ -5,12 +5,14 @@ font-family: 'Piazzolla', serif;
 font-family: 'Spectral', serif;
 font-family: 'Texturina', serif;
 */
-body {
+* {
 	margin: 0;
 	padding: 0;
-	width: 100%;
 	overflow-x: hidden;
-	padding-top: 70px;
+}
+body {
+	width: 100%;
+	background-color: rgba(178, 190, 181, 0.9);
 }
 nav {
 	background-color: rgba(178, 190, 181, 0.9);
@@ -38,13 +40,13 @@ h4,
 h5,
 h6 {
 	font-family: "Inknut Antiqua", serif;
+	overflow: hidden;
 }
 h5 {
 	font-size: 27px;
 	font-weight: bold;
 }
-page-start {
-}
+
 #section-1 {
 	background: rgba(178, 190, 181, 0.9) center center/cover no-repeat fixed;
 	background-image: url(../img/banner-bg.jpg);
@@ -52,16 +54,14 @@ page-start {
 }
 .carousel {
 	margin: auto;
-	height: 100%;
 }
 #s1-text {
-	height: 600px;
 	color: white;
 	backdrop-filter: sepia(30%);
 }
 #s1-text h2 {
 	font-family: "Cormorant Unicase", serif;
-	padding-top: 25%;
+	overflow-y: hidden;
 }
 .divider {
 	height: 25px;
@@ -70,21 +70,18 @@ page-start {
 #section-2 {
 	background-color: rgba(137, 148, 153, 0.2);
 }
-.carousel-caption {
-	backdrop-filter: grayscale(70%) blur(1px);
-}
+
 #section-3 {
 	background: rgba(137, 148, 153, 0.2);
 }
 .card {
-	width: 80%;
-	height: 40%;
+	/*width: 80%;
+	height: 40%;*/
 	margin-left: auto;
 	margin-right: auto;
 }
 #section-4 {
 	background: rgba(137, 148, 153, 0.2);
-	height: 200px;
 }
 #connect {
 	flex-direction: column;
